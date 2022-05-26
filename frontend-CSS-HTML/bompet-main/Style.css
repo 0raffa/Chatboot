@@ -1,0 +1,643 @@
+/*Imports: */
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+@font-face 
+{
+    font-family: 'Roboto-Black';
+    src: url('Font/Roboto-Black.ttf');
+}
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+nav
+{
+    background-color: white;
+    border-bottom: 1px solid #B9C4C2;
+    /*box-shadow: 0px 1px 5px #141414;*/
+    width: 100%;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+#Logo
+{
+    float: left;
+    padding: 2px 25px 2px 25px ;
+
+    /*font-family: Roboto-Black;*/
+    font-size: 58px;
+    font-weight: bolder;
+    color: #141414;
+}
+
+
+#Menu ul 
+{
+    list-style:none;
+    /*text-align: right;*/
+    text-align: right;
+}
+
+#Menu ul li 
+{ 
+    
+    padding: 10px 25px 10px 25px;
+    display: inline-flex;
+    margin: 15px;
+    
+    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+    line-height: 1.5;
+    font-size: 22px;
+
+    box-shadow: 0px 10px 5px #cacaca;
+    border-radius: 10px;
+    border: 1px solid #eaeaea;
+    /* border: 1px solid #eaeaea; */
+    
+}
+
+#Menu ul li
+{
+    cursor: pointer;
+    background-color: white;
+}
+
+#Menu a
+{
+    text-decoration: none;
+    color: #141414;
+}
+
+#Menu a:hover
+{
+    color: #484848;
+}
+
+section
+{  
+    transition: 0.25s; 
+
+    background-color: #607E80;
+    /*background-image: url("Imagens/VectorCapa.png");*/
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: contain;
+    border-bottom: 1px solid #141414;
+    resize: both;
+    height: 90vh;
+    min-height: 800px; 
+    max-height: 800px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+article
+{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    text-align: center;
+    word-wrap: break-word;
+    border: 1 solid;
+    word-wrap: break-word
+}
+
+h1
+{
+    background-color: #378785;
+    box-shadow: 0px 1px 5px #141414;
+    margin: 0.5em 1.5em 0.5em 1.5em;
+    border-radius: 4px;
+    padding: 10px;
+
+    font-size: 3em;
+    font-family: Roboto-Black;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+article h2
+{
+    font-weight: bold;
+    font-size: 2.5em;
+
+    padding: 10px;
+    text-align: center;
+    color: #20201E;
+    letter-spacing: 2px;
+    margin: 0% 7.5% 0% 7.5%;
+}
+
+article p
+{
+    font-size: 1.2em;
+    font-weight: 400;
+    
+    padding: 20px;
+    margin: 0% 7.5% 0% 7.5%;
+}
+
+footer
+{
+    width: 100%;
+    min-height: 250px;
+    bottom: 0;
+    background-color: #44A1A0;
+    overflow: hidden;
+    word-wrap: break-word;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Roboto;  
+    justify-content: center;
+}
+
+footer div
+{ 
+    background-color: #439492;
+    margin: 1.25em ;
+
+    /* border: 1px solid; */
+    box-shadow: 0px 1px 5px #141414;
+    border-radius: 4px;
+
+    min-width: 200px;
+    width: 20%;
+}
+
+footer ul li
+{ 
+    font-size: 0.9em;
+    font-weight: 400;
+    text-align: center;
+    list-style: none;
+    margin: 7.5% 7.5% 7.5% 7.5%;
+}
+
+footer ul li:hover
+{ 
+    cursor: pointer;
+    color: #242424;
+}
+
+footer ul
+{ 
+    padding: 20px;
+}
+
+footer h2
+{
+    border-bottom: 2px solid #363636;
+    font-weight: bold;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #20201E;
+    padding: 15px;
+    margin: 0% 7.5% 0% 7.5%;
+}
+
+/* Paineis_Objetivos */
+
+#Paineis_Objetivos
+{
+    overflow: hidden;
+    word-wrap: break-word;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: Roboto;   
+    margin: 0% 7.5% 0% 7.5%;
+}
+
+#Paineis_Objetivos h2
+{
+    font-weight: bold;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #20201E;
+    padding: 10px;
+    margin: 0% 7.5% 0% 7.5%;
+}
+
+#Paineis_Objetivos div
+{
+    width: 45%;
+    margin: 1.25%;
+    /*border: 1px solid #cacaca; */
+    box-shadow: 0px 1px 5px #cacaca;
+    border-radius: 4px;
+}
+
+#Paineis_Objetivos ul
+{
+    padding: 20px;
+}
+
+#Paineis_Objetivos li
+{
+    font-size: 1.2em;
+    font-weight: 400;
+    text-align: left;
+    list-style: circle;
+    color: #6E7976;
+    margin: 0% 7.5% 0% 7.5%;
+    padding: 20px;
+}
+
+#Paineis_Galeria
+{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: space-around;
+    margin: 0% 7.5% 0% 7.5%;
+}
+
+#Paineis_Galeria img 
+{
+    /* border: 1px solid #141414; */
+    box-shadow: 0px 1px 5px #141414;
+    border-radius: 4px;
+    width: 30%;
+    resize: both;
+}
+
+/*Formulario*/
+#Formulario
+{
+    justify-content: center;
+    margin: 0.25em 12.5% 1.25em 12.5%;
+    box-shadow: 1px 1px 2px #141414;
+    border-radius: 20px;
+    background-color: #629997;
+    overflow: hidden;
+}
+
+#Formulario div
+{
+    transition: 1s;
+}
+
+#Formulario form
+{
+    /*Forma*/
+    padding: 1em;
+    margin: 1em;
+    background-color: #fff;
+    box-shadow: 0px 1px 5px #141414;
+    border-radius: 8px;
+}
+
+#Formulario input[type=text], input[type=tel], input[type=email], textarea
+{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+#Formulario textarea
+{
+    font-family: Roboto;
+    min-height: 100px;
+}
+
+#Formulario label 
+{
+    float: left;
+    font-family: Roboto;
+    font-size: 1.1em;
+    padding: 25px 0 10px 0;
+    display: inline-block;
+}
+
+#Formulario h1
+{
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+#Formulario input[type=submit] 
+{
+  /*Forma*/
+  background-color: #378785;
+  color: white;
+  padding: 12px 20px;
+  margin-top: 20px; 
+  font-weight: 600;
+  width: 99%;
+      
+  /*Borda*/
+  border: none;
+  border-radius: 4px;
+      
+  /*Mouse*/
+  cursor: pointer;
+}
+
+#Formulario input[type=submit]:hover
+{
+    transition: 1s;
+    background-color: #469C9A;
+}
+
+#Formulario button[type=button]
+{
+    background-color: #378785;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 20px; 
+    font-weight: 600;
+    width: 99%;
+      
+    /*Borda*/
+    border: none;
+    border-radius: 4px;
+      
+    /*Mouse*/
+    cursor: pointer;
+
+}
+
+
+
+#Section_01
+{
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-image: url("Imagens/Foto_Bobina.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 60%; 
+    resize: both;
+}
+
+#Section_02 
+{
+    min-height: 75vh;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#Section_02 h2
+{
+    color: #FFFFFA;
+    font-family: Roboto-black;
+    font-size: 3em;
+    text-align: left;
+    margin: 0% 7.5% 0% 7.5%;
+    margin-top: 225px;
+}
+
+#Section_02 p
+{
+    color: #FFFFFA;
+    font-family: Roboto;
+    font-size: 1.75em;
+    text-align: left;
+    margin: 5% 7.5% 2.5% 7.5%;
+}
+
+#Section_02 button
+{
+    box-shadow: 0px 1px 5px #141414;
+    background-color: #01847F;
+    border-radius: 4px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1em;
+    color: #FFFFFA;
+    padding: 15px;
+    margin: 1em;
+    justify-content: center;
+    margin: 5% 7.5% 2.5% 7.5%;
+}
+
+#Section_02 button a
+{
+    text-decoration: none;
+    color: #FFFFFA;
+    padding: 25px 40px 25px 40px;
+}
+
+#Section_02 button:hover
+{
+    background-color: #469C9A;
+}
+
+/* Termino depois */
+
+/* #Redes
+{
+    width: 50%;
+    height: 40%;
+    display: inline-flex;
+}
+
+#Insta
+{
+    width: 33.3%;
+    height: 100%;
+    background: #141414;
+    background-image: url("Imagens/Instagram.png");
+    background-repeat: no-repeat;
+    background-size: 3.5em;
+    box-sizing: border-box;
+    resize: both;
+    background-position: 70% 50%;
+}
+
+#Linkedin
+{
+    width: 33.3%;
+    height: 100%;
+    background-image: url("Imagens/Linkedin.png");
+    background-repeat: no-repeat;
+    background-size: 5em;
+    box-sizing: border-box;
+    resize: both;
+    background-position: 0% 50%;
+}
+
+#Face
+{
+    width: 33.3%;
+    height: 100%;
+    background-image: url("Imagens/Facebook.png");
+    background-repeat: no-repeat;
+    background-size: 5em;
+    box-sizing: border-box;
+    resize: both;
+    background-position: 0% 50%;
+} */
+
+@media screen and (max-width: 850px) 
+{
+    nav
+    {
+        top: 0;
+  	    position: sticky;
+    }
+
+    section
+    {  
+        height: 50vh;
+        min-height: 350px;
+    }
+
+    article
+    {
+        text-align: justify;
+    }
+
+    /* Menu */
+
+    #Menu ul li
+    {
+        display: none;
+    }
+
+    #Menu ul
+    {
+        text-align: center;
+    }
+
+    #Logo
+    {
+        float: none;
+    }
+
+    h1
+    {
+        font-size:2.5em;
+    }
+    
+    footer div
+    {
+        width: 90%;
+    }
+
+    #Section_02
+    {
+        min-height: 300px;
+        transition: 1s;
+        text-align: center;
+        justify-content: center; 
+    }
+
+    #Section_02 h2
+    {
+        transition: 0.25s;
+        font-size: 1.2em;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    #Section_02 p
+    {
+        transition: 0.25s;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    #Formulario
+    {
+        justify-content: center;
+        margin: 0.25em 5% 1.25em 5%;
+        box-shadow: 0px 1px 5px #141414;
+        border-radius: 4px;
+        background-color: #629997;
+        overflow: hidden;
+    }
+
+    h1
+    {
+        margin: 0.5em 1em 0.5em 1em;
+    }
+
+}
+
+@media screen and (max-width: 1000px) 
+{
+    /* Paineis */
+
+    #Paineis_Objetivos div
+    {
+        width: 100%;
+    }
+
+    #Paineis_Galeria img 
+    {
+        width: 99%;
+        margin: 3.5% 0% 3.5% 0%;
+    }
+
+    footer div
+    {
+        width: 40%;
+    }
+
+    #Section_02
+    {
+        transition: 0s;
+    }
+ 
+    /* Termino depois */
+    /* #Redes
+    {
+        display: block;
+    }
+
+    #Insta
+    {
+        width: 100%;
+        height: 33.3%;
+        resize: both;
+        background-size: 15%;
+        background-position: 50% 50%;
+    }
+
+    #Linkedin
+    {
+        width: 100%;
+        height: 33.3%;
+        resize: both;
+        background-size: 35%;
+        background-position: 50% 50%;
+    }
+
+    #Face
+    {
+        width: 100%;
+        height: 33.3%;
+        resize: both;
+        background-size: 35%;
+        background-position: 50% 50%;
+    } */
+
+}
+
+@media screen and (max-width: 350px) 
+{
+    #Section_01 
+    {
+        display: none;
+    }
+    
+    #Section_02 
+    {
+        width: 100%;
+    }
+}
